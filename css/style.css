@@ -16,8 +16,8 @@
     "ma ma ma ma"
     "ma ma ma ma"
     "ma ma ma ma"
-    "a1 a1 a2 a2"
-    "a1 a1 a2 a2"
+    "ma ma ma ma"
+    "ma ma ma ma"
     "fo fo fo fo"
     ;
 }
@@ -73,11 +73,12 @@ ul {
 
 main {
     grid-area: ma;
-    background-image: url("../img/riktig_man.jpg");
-    height: 700px;
-    width: 100%;
-    background-size: cover;
 
+}
+
+#img_man {
+    width: 100%;
+    height: 750px;
 }
 
 #text1 {
@@ -91,22 +92,83 @@ main {
     right: 250px;
     font-size: xx-large;
     
-
-}
-
-
-.a1 {
-    grid-area: a1;
-    background-image: url(../img/double.jpg);
-    height: 500px;
-    width: 100%;
-    background-size: cover;
-}
-
-.a2 {
-    grid-area: a2;
 }
 
 footer {
     grid-area: fo;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    grid-area: fo;
+    display: flex;
+    justify-content: center;
+}
+
+#img_bear {
+    
+    justify-content: center;
+    position: absolute;
+    top: 966px;
+    width: 150px;
+    height: 100px;
+}
+
+#img_double {
+    width: 50%;
+    height: 373px;
+}
+
+#text2 {
+    background-color: white;
+    height: 250px;
+    width: 45%;
+    display: block;
+    position: absolute;
+    text-align: center;
+    right: 0px;
+    top: 400px;
+    font-size: x-large;
+}
+
+#text_double {
+    background-color: white;
+    height: 100px;
+    width: 45%;
+    display: block;
+    position: absolute;
+    text-align: center;
+    right: 0px;
+    top: 300px;
+    font-size: xx-large;
+}
+
+#img_dog {
+    width: 50%;
+    height: 373px;
+}
+
+#text_dog {
+    background-color: white;
+    height: 100px;
+    width: 45%;
+    display: block;
+    position: absolute;
+    text-align: center;
+    right: 0px;
+    top: 672px;
+    font-size: xx-large;
+}
+
+#text3 {
+    background-color: white;
+    height: 250px;
+    width: 45%;
+    display: block;
+    position: absolute;
+    text-align: center;
+    right: 0px;
+    top: 772px;
+    font-size: x-large;
 }
